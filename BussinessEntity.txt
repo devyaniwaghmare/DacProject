@@ -1,0 +1,53 @@
+Online course managment syste
+----------------------------------
+
+Business Entity
+
+Faculty:
+        Id
+        First Name
+        Last Name
+        Roll of Faculty
+        Email
+        Course Id
+        Subject Id
+        
+
+Student:
+        Id
+        First Name
+        Last Name
+        Email
+        Course Id
+
+Courses:
+       Id
+       Course Name
+       Course Descp
+       Subjects
+
+Subject:
+       Id
+       Subject Name
+       Subject Descp
+       Course Id
+       Faculty Id
+       
+       
+
+Assignment:
+          Id
+          Course
+          Subject Id
+          Subject Name
+          Faculty Id
+          Marks
+          Due Date
+
+
+claims:
+        User Id
+        Login Name
+        Password
+          
+          
